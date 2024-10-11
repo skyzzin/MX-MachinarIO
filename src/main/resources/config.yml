@@ -1,0 +1,21 @@
+Generators:
+  IronGenerator:
+    type: "iron_ingot"
+    title: "Gerador De Ferro"
+    time: 10
+  GoldGenerator:
+    type: "gold_ingot"
+    title: "Gerador De Ouro"
+    time: 20
+  DiamondGenerator:
+    type: "diamond"
+    title: "Gerador De Diamante"
+    time: 30
+
+  CobbleStoneGenerator:
+    type: "redstone_torch"
+    title: "Gerador De Diamante"
+    time: 30
+
+data: sla
+

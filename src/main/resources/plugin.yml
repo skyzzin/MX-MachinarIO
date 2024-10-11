@@ -1,0 +1,11 @@
+name: MX-MachinarIO
+version: '1.0-SNAPSHOT'
+main: org.skyzzin.mx_machinario
+api-version: '1.21'
+authors: [ Skyzzin ]
+description: Plugin De Maquinas
+
+commands:
+  gg:
+    usage: /gg
+    description: Comando para pegar um Gerador
