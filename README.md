@@ -5,7 +5,7 @@ Skyzzin Generators é um plugin para Minecraft que permite criar geradores de it
 ## [Clique Aqui Para Baixar](https://github.com/skyzzin/MX-MachinarIO/raw/refs/heads/master/MX-MachinarIO.jar)
 
 
-!(https://github.com/skyzzin/MX-MachinarIO/blob/master/mdfiles/1.png?raw=true)
+![](https://github.com/skyzzin/MX-MachinarIO/blob/master/mdfiles/1.png?raw=true)
 
 ## Funcionalidades
 
