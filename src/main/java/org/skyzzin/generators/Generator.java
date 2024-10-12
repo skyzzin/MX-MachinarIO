@@ -27,7 +27,7 @@ public class Generator implements Listener {
     public void spawnGenerator(PlayerInteractEvent event) {
         if (event.getAction() == Action.RIGHT_CLICK_BLOCK) {
             if (event.getClickedBlock().getType() == Material.SPAWNER) {
-                Map<String, GeneratorConfig> generatorsConfig = YMLReader.loadGenerators("config.yml");
+                Map<String, GeneratorConfig> generatorsConfig = YMLReader.loadGenerators(plugin,"config.yml");
 
                 for(Map.Entry<String, GeneratorConfig> entry : generatorsConfig.entrySet())
                 {
@@ -79,8 +79,7 @@ public class Generator implements Listener {
             for (GeneratorInstance generator : generators) {
                 if (generator.isAtLocation(location)) {
 
-                    //event.getPlayer().openInventory(generator.getInventory());
-
+                    event.getPlayer().openInventory(generator.openInventory());
 
                     return;
                 }

@@ -6,6 +6,10 @@ authors: [ Skyzzin ]
 description: Plugin De Maquinas
 
 commands:
-  gg:
-    usage: /gg
+  cg:
+    usage: /cg
+    description: Comando para pegar um Gerador
+
+  cleargenerators:
+    usage: /cleargenerators
     description: Comando para pegar um Gerador
