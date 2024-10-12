@@ -1,7 +1,7 @@
 # Skyzzin Generators Plugin
 
 Skyzzin Generators é um plugin para Minecraft que permite criar geradores de itens customizados no mundo do jogo. Os geradores podem ser configurados para produzir diferentes tipos de materiais, como ferro, ouro e diamante, e podem ser colocados em locais específicos pelos jogadores. No futuro, o plugin terá uma funcionalidade adicional de "Agentes" que irão executar ações como quebrar blocos, pescar, coletar madeira e muito mais.
-
+![Clique Aqui Para Baixar](https://github.com/skyzzin/MX-MachinarIO/raw/refs/heads/master/MX-MachinarIO.jar)
 ![](https://github.com/skyzzin/MX-MachinarIO/blob/master/mdfiles/1.png?raw=true)
 
 ## Funcionalidades
