@@ -90,6 +90,7 @@ public class GeneratorInstance implements Listener {
                     }
 
                     if (!foundCoal) {
+                        armorStand.setCustomName(ChatColor.RED +"NoFuel");
                         isFuel = false;
                     }
                 }
