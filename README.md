@@ -1,6 +1,6 @@
-# Skyzzin Generators Plugin
+# MX Generators Plugin
 
-Skyzzin Generators é um plugin para Minecraft que permite criar geradores de itens customizados no mundo do jogo. Os geradores podem ser configurados para produzir diferentes tipos de materiais, como ferro, ouro e diamante, e podem ser colocados em locais específicos pelos jogadores. No futuro, o plugin terá uma funcionalidade adicional de "Agentes" que irão executar ações como quebrar blocos, pescar, coletar madeira e muito mais.
+MX Generators é um plugin para Minecraft que permite criar geradores de itens customizados no mundo do jogo. Os geradores podem ser configurados para produzir diferentes tipos de materiais, como ferro, ouro e diamante, e podem ser colocados em locais específicos pelos jogadores. No futuro, o plugin terá uma funcionalidade adicional de "Agentes" que irão executar ações como quebrar blocos, pescar, coletar madeira e muito mais.
 
 ![Facil De Customizar](https://github.com/skyzzin/MX-MachinarIO/blob/master/mdfiles/1.png)
 
@@ -28,7 +28,7 @@ Skyzzin Generators é um plugin para Minecraft que permite criar geradores de it
 ## Instalação
 
 1. Baixe o arquivo `.jar` do plugin e coloque-o na pasta `plugins` do seu servidor Minecraft.
-2. Inicie o servidor para gerar os arquivos de configuração automaticamente na pasta `plugins/SkyzzinGenerators`.
+2. Inicie o servidor para gerar os arquivos de configuração automaticamente na pasta `plugins/MXGenerators`.
 3. Edite o arquivo `config.yml` para personalizar os geradores conforme necessário.
 4. Reinicie o servidor para aplicar as configurações.
 
