@@ -37,12 +37,12 @@ public class GeneratorInstance implements Listener {
 
     public ArmorStand armorStand;
 
-    public GeneratorInstance( Location loc, JavaPlugin _plugin, Material material) {
+    public GeneratorInstance( Location loc, JavaPlugin _plugin, Material material,String title) {
         this.plugin = _plugin;
         this.location = loc;
         this.material = material;
 
-        this.inventory = Bukkit.createInventory(null, InventoryType.HOPPER,"Gerador De Ferro");
+        this.inventory = Bukkit.createInventory(null, InventoryType.HOPPER,title);
 
         if (!active) {
             startGenerator();

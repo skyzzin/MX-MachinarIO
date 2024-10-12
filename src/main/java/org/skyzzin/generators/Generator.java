@@ -46,7 +46,7 @@ public class Generator implements Listener {
                                 return;
                             }
                         }
-                        generators.add(new GeneratorInstance(location, plugin,material));
+                        generators.add(new GeneratorInstance(location, plugin,material,entry.getValue().getTitle()));
                     }
                 }
             }
