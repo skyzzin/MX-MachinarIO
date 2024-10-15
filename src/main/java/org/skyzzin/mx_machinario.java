@@ -14,6 +14,8 @@ public final class mx_machinario extends JavaPlugin {
     @Override
     public void onEnable() {
 
+        
+
         saveDefaultConfig();
         new RegisterGenerators(this);
         new RegisterCommands(this);
