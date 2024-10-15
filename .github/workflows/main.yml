@@ -13,7 +13,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Set up JDK 21  # Alterado para JDK 21
+      - name: Set up JDK 21
         uses: actions/setup-java@v3
         with:
           distribution: 'temurin'
@@ -28,8 +28,8 @@ jobs:
       - name: Upload build artifacts
         uses: actions/upload-artifact@v3
         with:
-          name: MX-MachinarIO-jar
-          path: target/MX-MachinarIO-1.0.jar
+          name: MX-MachinarIO-jar  # O nome do artefato deve ser consistente
+          path: target/MX-MachinarIO-1.0.jar  # Verifique o caminho correto
 
   deploy:
     runs-on: ubuntu-latest
@@ -42,7 +42,7 @@ jobs:
       - name: Download build artifacts
         uses: actions/download-artifact@v3
         with:
-          name: MX-MachinarIO-jar
+          name: MX-MachinarIO-jar  # O nome deve ser o mesmo do upload
 
       - name: Set environment variables
         run: |
