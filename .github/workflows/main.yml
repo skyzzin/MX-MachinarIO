@@ -3,7 +3,7 @@ name: Deploy to CurseForge
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build:
