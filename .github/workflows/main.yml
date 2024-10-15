@@ -22,6 +22,9 @@ jobs:
       - name: Build with Maven
         run: mvn clean package
 
+      - name: List target directory contents
+        run: ls -la target/  # Adicionando este passo para verificar se o JAR foi gerado
+
       - name: Upload build artifacts
         uses: actions/upload-artifact@v3
         with:
@@ -50,5 +53,5 @@ jobs:
         run: |
           curl -X POST "https://minecraft.curseforge.com/api/projects/$PROJECT_ID/upload-file" \
           -H "X-Api-Token: $CURSEFORGE_API_TOKEN" \
-          -F "file=@target/MX-MachinarIO-1.0.jar" \  # Certifique-se que o nome do arquivo está correto
+          -F "file=@target/MX-MachinarIO-1.0.jar" \
           -F "metadata={\"changelog\": \"Atualizações do plugin\", \"releaseType\": \"release\", \"gameVersions\": [\"1.17\", \"1.18\"]}"
