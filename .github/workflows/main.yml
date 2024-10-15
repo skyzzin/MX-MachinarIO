@@ -23,13 +23,13 @@ jobs:
         run: mvn clean package
 
       - name: List target directory contents
-        run: ls -la target/
+        run: ls -la target/  # Verificar se o arquivo .jar está presente
 
       - name: Upload build artifacts
         uses: actions/upload-artifact@v3
         with:
-          name: MX-MachinarIO-jar  # O nome do artefato deve ser consistente
-          path: target/MX-MachinarIO-1.0.jar  # Verifique o caminho correto
+          name: MX-MachinarIO-jar  # Nome do artefato deve ser consistente
+          path: target/MX-MachinarIO-1.0.jar  # Verifique o caminho correto do arquivo gerado
 
   deploy:
     runs-on: ubuntu-latest
@@ -42,7 +42,7 @@ jobs:
       - name: Download build artifacts
         uses: actions/download-artifact@v3
         with:
-          name: MX-MachinarIO-jar  # O nome deve ser o mesmo do upload
+          name: MX-MachinarIO-jar  # Nome do artefato deve ser o mesmo do upload
 
       - name: Set environment variables
         run: |
